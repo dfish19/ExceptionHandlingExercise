@@ -18,7 +18,7 @@ namespace ExceptionHandlingExercise
 
             // Create an string variable with an empty string initializer - name it str
 
-            string empty = "";
+            string str = "";
 
             // using a foreach loop, attempt to parse the elements in your char[] with int.Parse()
             // and Exceptions will be thrown 
@@ -53,8 +53,8 @@ namespace ExceptionHandlingExercise
 
                 try
                 {
-                    empty = item.ToString();
-                    x = int.Parse(empty);
+                    str = item.ToString();
+                    x = int.Parse(str);
                 }
                 catch (Exception)
                 {
