@@ -55,10 +55,13 @@ namespace ExceptionHandlingExercise
                 {
                     str = item.ToString();
                     x = int.Parse(str);
+                    Console.WriteLine();
+
                 }
                 catch (Exception)
                 {
                     Console.WriteLine($"Unable to Parse '{item}'");
+                    Console.WriteLine();
                 }
 
 
