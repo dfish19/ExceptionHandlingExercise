@@ -56,7 +56,7 @@ namespace ExceptionHandlingExercise
                     str = item.ToString();
                     x = int.Parse(str);
                     numbers.Add(x);
-                    Console.WriteLine();
+                    
 
                 }
                 catch (Exception ex)
@@ -68,12 +68,12 @@ namespace ExceptionHandlingExercise
                 }
 
 
-
+            }
                 foreach (var num in numbers)
                 {
                     Console.WriteLine(num);
                 }
-            }
+            
         }
     }
 }
