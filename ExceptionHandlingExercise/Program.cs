@@ -33,7 +33,7 @@ namespace ExceptionHandlingExercise
 
             foreach (var item in arr)
             {
-                
+
 
 
                 // Now create a try catch
@@ -49,12 +49,12 @@ namespace ExceptionHandlingExercise
 
                 //Console.WriteLine($"Unable to Parse '{character}'"); //character will be the name of each item in your collection
 
-                
+                int x;
 
                 try
                 {
                     str = item.ToString();
-                    int x = int.Parse(str);
+                    x = int.Parse(str);
                     numbers.Add(x);
                     Console.WriteLine();
 
